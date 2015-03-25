@@ -1,0 +1,240 @@
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/style\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/stylus\/lib\/functions\/index\.styl}line{font-family:\000031}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Applications\/CodeKit\.app\/Contents\/Resources\/engines\/stylus\/lib\/functions\/index\.styl}line{font-family:\00003286}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\00003286}}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section,
+summary {
+  display: block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+audio,
+canvas,
+video {
+  display: inline-block;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+[hidden] {
+  display: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+a:focus {
+  outline: thin dotted;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+a:active,
+a:hover {
+  outline: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+h1 {
+  font-size: 2em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+abbr[title] {
+  border-bottom: 1px dotted;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+b,
+strong {
+  font-weight: 700;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+dfn {
+  font-style: italic;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+mark {
+  background: #ff0;
+  color: #000;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, serif;
+  font-size: 1em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+q {
+  quotes: 2 1 C 2 1 D 2 18 2 19;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+small {
+  font-size: 80%;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+sup {
+  top: -0.5em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+sub {
+  bottom: -0.25em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+img {
+  border: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+svg:not(:root) {
+  overflow: hidden;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+button,
+input {
+  line-height: normal;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000031}}
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+  -webkit-appearance: button;
+  cursor: pointer;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+button[disabled],
+input[disabled] {
+  cursor: default;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+input[type=checkbox],
+input[type=radio] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+input[type=search] {
+  -webkit-appearance: textfield;
+  box-sizing: content-box;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+input[type=search]::-webkit-search-cancel-button,
+input[type=search]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+textarea {
+  overflow: auto;
+  vertical-align: top;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+body,
+figure {
+  margin: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000032}}
+legend,
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000034}}
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+@media -stylus-debug-info{filename{font-family:file\:\/\/\/Users\/Lucas\/Dropbox\/HackerYou\/Week 5\/foodsavour\/scss\/reset\.styl}line{font-family:\000036}}
+* {
+  box-sizing: border-box;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -10,7 +10,7 @@ var app = {};
 app.apiId = '3be960ea';
 app.apiKey = 'f57457347ec1db9d64219061f5d7f3c7';
 
-app.getRecipes = function(q,d) {u
+app.getRecipes = function(q,d) {
 	var options = {	
 			_app_id : app.apiId,
 			_app_key : app.apiKey,
@@ -34,7 +34,6 @@ app.getRecipes = function(q,d) {u
 			// console.log(result);
 			// now that the data has come back, let's display the recipes
 			app.displayRecipes(result);
-			app.makeRecipeUrl(result);
 		}	
 	});
 } // End request
@@ -59,9 +58,15 @@ app.displayRecipes = function(result) {
 		var ul = $( '<ul>' );
 		var li = $( '<li>' );
 		// create a link to the recipe
-		var a = $( '<a>' ).attr( 'href', '#' );
+		var url = 'http://www.yummly.com/recipe/' + recipes[i].id;
+
+		var a = $( '<a>' ).attr({
+														href : url,
+														target : 	"_blank"
+															});
+
 		// recipe title
-		var h3 = $( '<h3>' ).text(recipes[i].recipeName)
+		var h3 = $( '<h3>' ).text(recipes[i].recipeName);
 		// Ingredients header
 		var h4 = $( '<h4>' ).text('Ingredients');
 		// Ingredients list
@@ -98,6 +103,8 @@ app.init = function() {
 		q = q.replace(/,\s/g, ','); // strip spaces between commas
 		q = q.split(','); // q is now an array of ingredients (the list splits at the comma)
 
+
+
 		// 2. grab the value of the diet option
 		var d = $('.diet option:selected').val(); // taken from the dropdown options
 		
@@ -106,48 +113,12 @@ app.init = function() {
 	});
 }
 
-// --------------------------------
-// Create recipe url
-// --------------------------------
-// Make a function to create the url for the recipe to get to the yummly recipe page
-app.makeRecipeUrl = function(results) {
-var urls = [];
-var recipes = result.matches;
-var baseUrl = 'http://www.yummly.com/recipe/';
-// for each recipe
-for ( var i = 0; i < recipes.length; i++ ){
-	// get the id for the recipe
-	var id = recipes[i].id;
-	// append it to the base url from yummly & create a variable
-	var url = baseUrl + id;
-	// add the urls to the array urls
-	urls.push(url);
-}
-
-// display urls on the page by calling app.displayRecipeUrl()
-app.displayRecipeUrls(urls);
-
-}
-
-// --------------------------------
-// Display recipe url
-// --------------------------------
-// make a function to diaply the recipe url on the page
-app.displayRecipeUrl = function(urls) {
-// for each url
-for( var i = 0; i <  ){
-
-}
-//create element in which we will put the urls
-
-//append the url to the html element
-}
 
 // --------------------------------
 // Document ready
 // --------------------------------
 $(function() {
-	// console.log('yo');
+	console.log('yo');
 	// app.getRecipes();
 	app.init();
 

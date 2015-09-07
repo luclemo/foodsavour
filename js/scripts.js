@@ -16,7 +16,9 @@ app.getRecipes = function(q,d) {
 			_app_key : app.apiKey,
 			format : 'jsonp',
 			allowedIngredient : q,
-			maxTotalTimeInSeconds : '1800'
+			requirePictures : 'false', // Only return recipes with pics
+			maxTotalTimeInSeconds : '1800', // Search for recipes that do not exceed 30 mins to make.
+			maxResult : 6 // max number or recipes returned
 		}
 		// if diet option is set, add it to the list fo data request
 		if(d){
@@ -43,12 +45,12 @@ app.getRecipes = function(q,d) {
 // --------------------------------
 
 // define a fucntion that will display the recipes
-app.displayRecipes = function(result) {
-//We need to clear out amy old recipes to make way for the new ones
+app.displayRecipes = function(recipes) {
+//We need to clear out any old recipes to make way for the new ones
 	$('.recipes').html('');
-	console.log('ready to display the recipes with this data', result);
+	console.log('ready to display the recipes with this data', recipes);
 	
-	var recipes = result.matches;
+	var recipes = recipes.matches;
 	console.log(recipes);
 	// we now have an array of recipe objects. We need to loop thorugh each one and display them.
 	// recipes.length defines how many objects we have.

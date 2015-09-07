@@ -1,46 +1,33 @@
 doctype html
 html(lang="en")
-		head
-				title= 'Foodsavour'
-				meta(charset='utf-8')
-				link(rel="stylesheet" href="css/style.css")
-		body
-				div.wrapper
-					div.form-wrapper
-						form
-							//- Enter ingredients here
-							label Wachoo got?
-							input.ingredients(type='text' placeholder='comma seperate your stuff')
-							
-							//- Enter dietary restrictions
-							label Whaddaya eat?
-							select.diet
-								option(selected) Everything
-								option(value="388^Lacto vegetarian") Things without faces
-								option(value="386^Vegan") Only Veggies
-							
-							//- Submit button
-							input(type='submit' value="gimme stuff")
+	head
+		title= 'Foodsavour'
+		meta(charset='utf-8')
+		link(rel="stylesheet" href="css/style.css")
+	body
+		div.wrapper
+			div.form-wrapper
+				form
+					//- Enter ingredients here
+					label Wachoo got?
+					input.ingredients(type='text' placeholder='comma seperate your stuff')
 					
-					//- Return recipes here
-					div.recipes
-						
-						//- displayRecipes(); should generate and populate the following markup
+					//- Enter dietary restrictions
+					label Whaddaya eat?
+					select.diet
+						option(selected) Everything
+						option(value="388^Lacto vegetarian") Things without faces
+						option(value="386^Vegan") Only Veggies
+					
+					//- Submit button
+					input(type='submit' value="gimme stuff")
+			
+			//- Return recipes here
+			div.recipes
+				
 
-						//- ul
-						//- 	li
-						//- 		a(href="#")
-						//- 			h3 Recipe title
-						//- 		h4 Ingredients
-						//- 		ol.ingredients
-						//- 			li first thing
-						//- 			li second thing
-						//- 			li this thing
-
-
-
-				script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
-				script(src="js/scripts.js")
+		script(src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js")
+		script(src="js/scripts.js")
 
 
 
